@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Windows10下hexo博客搭建]]></title>
+    <url>%2F2017%2F06%2F13%2FWindows10%E4%B8%8Bhexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%2F</url>
+    <content type="text"><![CDATA[Windows10搭建hexo个人博客安装nodejsnodejs版本:node-v6.11.0-x64安装过程略 安装gitgit版本：Git-2.13.0-64-bit安装过程略 安装hexocmd下执行1$npm install -g hexo-cli 建站cmd下执行123$ hexo init &lt;folder&gt;$ cd &lt;folder&gt;$ npm install 生成静态页面12$ hexo g # 或者hexo generate$ hexo s # 或者hexo server，可以在http://localhost:4000/ 查看 配置github注册一个github用户新建一个repo,repo名称和你的github用户名一样，例如你的github用户名为wzc,reop的名称应为wzc.github.io配置完成之后可以通过https://wzc.github.io来访问，注意wzc这个repo库需要在master分支下 发布至github123456$cd &lt;folder&gt;$hexo clean$hexo g$hexo d这里可能会有报错,git not found执行以下安装语句$ npm install hexo-deployer-git --save 更改主题https://github.com/iissnan/hexo-theme-next.git123456789$cd d:\myblog$git clone https://github.com/iissnan/hexo-theme-next.git themes/next修改_config.yml文件theme: nextcd D:\myblog\themes\nextD:\myblog\themes\next&gt;git pullAlready up-to-date.cd d:\myblogD:\myblog&gt;hexo gD:\myblog&gt;hexo s]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[test]]></title>
     <url>%2F2017%2F06%2F12%2Ftest%2F</url>
-    <content type="text"><![CDATA[标题11SQL&gt;select 1 from dual; 标题1.1标题1.2aalalalalalala我的博客]]></content>
+    <content type="text"><![CDATA[标题11SQL&gt;select 1 from dual; 标题1.1标题1.2aalalalalalala我的博客 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem. Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy. David LevithanWide Awake 1alert(&apos;Hello World!&apos;);]]></content>
       <tags>
         <tag>biaoqian1</tag>
       </tags>
